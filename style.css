@@ -54,6 +54,12 @@ h1 {
     border-radius: 5px;
 }
 
+#btn-submit {
+    background-color: #ff6200;
+    margin: 2% 35% 2% 35%;
+    color: white;
+}
+
 form {
     display: flex;
     flex-direction: column;
