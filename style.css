@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(27, 27, 27, 1); 
+    font-family: 'JetBrains Mono', serif;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.buttons-container {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btn1 {
+    background-color: #ff6200;
+    color: white;
+}
+
+#btn1:hover {
+    background-color: #a74000;
+    transform: translateY(-2px);
+}
+
+/* Bouton 2 */
+#btn2 {
+    background-color: #ff6200;
+    color: white;
+}
+
+#btn2:hover {
+    background-color: #a74000;
+    transform: translateY(-2px);
+}
+
+/* Formulaire caché */
+.form-container {
+    color: white;
+    display: none; /* Initialement caché */
+    padding: 20px;
+    margin: 2% 35% 2% 35%;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
