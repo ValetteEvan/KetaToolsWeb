@@ -1,7 +1,14 @@
-body {
+
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(27, 27, 27, 1); 
     font-family: 'JetBrains Mono', serif;
 }
+
 
 h1 {
     color: white;
@@ -25,23 +32,25 @@ h1 {
 }
 
 #btn1 {
-    background-color: #ff6200;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 #btn1:hover {
-    background-color: #a74000;
+    background-color: #000000;
     transform: translateY(-2px);
+    color: #ffffff;
 }
 
 /* Bouton 2 */
 #btn2 {
-    background-color: #ff6200;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 #btn2:hover {
-    background-color: #a74000;
+    background-color: #000000;
+    color: #ffffff;
     transform: translateY(-2px);
 }
 
@@ -55,9 +64,15 @@ h1 {
 }
 
 #btn-submit {
-    background-color: #ff6200;
-    margin: 2% 35% 2% 35%;
-    color: white;
+    background-color: #ffffff;
+    /*margin: 2% 35% 2% 35%;*/
+    color: rgb(0, 0, 0);
+}
+
+#btn-submit:hover {
+    background-color: #000000;
+    /*margin: 2% 35% 2% 35%;*/
+    color: rgb(255, 255, 255);
 }
 
 form {
@@ -65,3 +80,6 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+
+
+
