@@ -8,7 +8,6 @@ html {
     font-family: 'JetBrains Mono', serif;
 }
 
-
 h1 {
     color: white;
     font-size: 50px;
@@ -44,7 +43,6 @@ h1 {
     color: #ffffff;
 }
 
-/* Bouton 2 */
 #btn2 {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -57,7 +55,6 @@ h1 {
     transform: translateY(-2px);
 }
 
-/* Formulaire caché */
 .form-container {
     color: white;
     display: none; /* Initialement caché */
@@ -70,14 +67,12 @@ h1 {
 
 #btn-submit {
     background-color: #ffffff;
-    /*margin: 2% 35% 2% 35%;*/
     box-shadow: #ffffff 0px 0px 10px;
     color: rgb(0, 0, 0);
 }
 
 #btn-submit:hover {
     background-color: #000000;
-    /*margin: 2% 35% 2% 35%;*/
     color: rgb(255, 255, 255);
 }
 
