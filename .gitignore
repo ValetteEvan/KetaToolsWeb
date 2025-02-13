@@ -2,4 +2,4 @@
 /vendor
 
 # Ignore environment variables file
-.env
+private.env
