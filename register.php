@@ -27,6 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($stmt->execute()) {
             $_SESSION['username'] = $username;
+            $_SESSION['email'] = $email; // Stocker l'email dans la session
             header("Location: dashboard.php");
             exit();
         } else {
