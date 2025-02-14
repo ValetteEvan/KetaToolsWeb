@@ -13,10 +13,26 @@ if (!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <title>Tableau de bord</title>
+    <link rel="stylesheet" href="style-dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2>Bienvenue, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h2>
-    <p>Ceci est votre tableau de bord.</p>
-    <a href="logout.php">Se déconnecter</a>
+    <div class="navbar">
+        <h2>Bienvenue, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h2>
+        <?php if (isset($_SESSION['email'])): ?>
+            <p>Email : <?php echo htmlspecialchars($_SESSION['email']); ?></p>
+        <?php endif; ?>
+        <a href="logout.php">Se déconnecter</a>
+    </div>
+    <div class="container-card">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>Content for card 1</p>
+        </div>
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>Content for card 2</p>
+        </div>
+    </div>
 </body>
 </html>

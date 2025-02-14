@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    background-color: rgba(27, 27, 27, 1); 
+    font-family: 'JetBrains Mono', serif;
+}
+
+body {
+    margin: 0;
+    padding-top: 50px; /* Pour éviter que le contenu soit caché derrière la navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Pour aligner les cartes horizontalement */
+    gap: 20px;
+    width: 100%;
+    height: calc(100vh - 50px);
+    padding-top: 50px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(28, 28, 28);
+    text-align: center;
+}
