@@ -25,6 +25,10 @@ if (!isset($_SESSION['username'])) {
         <a href="logout.php">Se déconnecter</a>
     </div>
     <div class="container-card">
+        <div class="card-text">
+            <h3>Information</h3>
+            <p>C'est deux card sont juste du HTML et CSS</p>
+        </div>
         <div class="card">
             <h3>Card 1</h3>
             <p>Card contenant seulement du html et css !</p>
@@ -34,10 +38,22 @@ if (!isset($_SESSION['username'])) {
             <p>Ici juste du text pour rendre jolie :></p>
         </div>
         <div class="card-text">
-            <h3>Card 3</h3>
-            <p>Ici juste du text pour rendre jolie :><br/>
-            en vrais pas mal pas mal !</p>
+            <h3>Information</h3>
+            <p>Maintenant on y rajoute du Javascript !</p>
+        </div>
+        <div class="card-js">
+            <h3>Card 1</h3>
+            <div class="content">
+                <p>Card contenant seulement du html et css !</p>
+            </div>
+        </div>
+        <div class="card-js">
+            <h3>Card 2</h3>
+            <div class="content">
+                <p>Ici juste du text pour rendre jolie :></p>
+            </div>
         </div>
     </div>
+    
 </body>
 </html>
