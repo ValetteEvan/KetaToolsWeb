@@ -27,11 +27,16 @@ if (!isset($_SESSION['username'])) {
     <div class="container-card">
         <div class="card">
             <h3>Card 1</h3>
-            <p>Content for card 1</p>
+            <p>Card contenant seulement du html et css !</p>
         </div>
         <div class="card">
             <h3>Card 2</h3>
-            <p>Content for card 2</p>
+            <p>Ici juste du text pour rendre jolie :></p>
+        </div>
+        <div class="card-text">
+            <h3>Card 3</h3>
+            <p>Ici juste du text pour rendre jolie :><br/>
+            en vrais pas mal pas mal !</p>
         </div>
     </div>
 </body>

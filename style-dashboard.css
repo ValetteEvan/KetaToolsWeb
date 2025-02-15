@@ -1,7 +1,6 @@
 html {
     height: 100%;
     margin: 0;
-    display: flex;
     background-color: rgba(27, 27, 27, 1); 
     font-family: 'JetBrains Mono', serif;
 }
@@ -9,10 +8,7 @@ html {
 body {
     margin: 0;
     padding-top: 50px; /* Pour éviter que le contenu soit caché derrière la navbar */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background: radial-gradient(circle, rgb(97, 97, 97) 10%, transparent 11%) 0 0 / 20px 20px;
 }
 
 .navbar {
@@ -23,25 +19,32 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 0px 0px 20px #000000;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
 
 .container-card {
     display: flex;
+    flex-wrap: wrap; /* Permettre aux cartes de passer à la ligne suivante */
     justify-content: center;
     align-items: center;
-    flex-direction: row; /* Pour aligner les cartes horizontalement */
     gap: 20px;
     width: 100%;
-    height: calc(100vh - 50px);
-    padding-top: 50px;
+    padding-top: 200px;
 }
 
 .card {
     background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
     color: rgb(28, 28, 28);
     text-align: center;
+}
+
+.card-text {
+    font-size: 20px;
+    text-align: center;
+    color : rgb(255, 255, 255);
+    text-shadow: #ffffff 0px 0px 10px;
+    flex: 1 1 100%; /* Prendre toute la largeur pour la troisième carte */
 }
