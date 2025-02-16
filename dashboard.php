@@ -37,22 +37,6 @@ if (!isset($_SESSION['username'])) {
             <h3>Card 2</h3>
             <p>Ici juste du text pour rendre jolie :></p>
         </div>
-        <div class="card-text">
-            <h3>Information</h3>
-            <p>Maintenant on y rajoute du Javascript !</p>
-        </div>
-        <div class="card-js">
-            <h3>Card 1</h3>
-            <div class="content">
-                <p>Card contenant seulement du html et css !</p>
-            </div>
-        </div>
-        <div class="card-js">
-            <h3>Card 2</h3>
-            <div class="content">
-                <p>Ici juste du text pour rendre jolie :></p>
-            </div>
-        </div>
     </div>
     
 </body>
