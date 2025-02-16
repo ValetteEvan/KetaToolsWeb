@@ -38,6 +38,10 @@ if (!isset($_SESSION['username'])) {
             <p>Ici juste du text pour rendre jolie :></p>
         </div>
     </div>
+    <div class="note">
+        <h3>Note</h3>
+        <p>Cette page est un exemple</p>
+    </div>
     
 </body>
 </html>
