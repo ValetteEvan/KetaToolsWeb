@@ -26,8 +26,8 @@ if (!isset($_SESSION['username'])) {
     </div>
     <div class="container-card">
         <div class="card-text">
-            <h3>Information</h3>
-            <p>C'est deux card sont juste du HTML et CSS</p>
+            <h3>Shop</h3>
+            <p>Voici notre large gamme de produits</p>
         </div>
         <div class="card">
             <h3>Card 1</h3>
