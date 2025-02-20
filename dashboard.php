@@ -18,24 +18,35 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
     <div class="navbar">
+        <div class="navbar-text">
         <h2>Bienvenue, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h2>
         <?php if (isset($_SESSION['email'])): ?>
             <p>Email : <?php echo htmlspecialchars($_SESSION['email']); ?></p>
         <?php endif; ?>
         <a href="logout.php">Se déconnecter</a>
+        </div>
+        <div class="panier">
+            <h2>Panier</h2>
+        </div>
     </div>
     <div class="container-card">
         <div class="card-text">
             <h3>Shop</h3>
-            <p>Voici notre large gamme de produits</p>
+            <p>Voici notre large gamme de produit</p>
         </div>
         <div class="card">
             <h3>Card 1</h3>
             <p>Card contenant seulement du html et css !</p>
+            <div class="button-buy">
+                <a>Buy</a>
+        </div>
         </div>
         <div class="card">
             <h3>Card 2</h3>
             <p>Ici juste du text pour rendre jolie :></p>
+            <div class="button-buy">
+                <a>Buy</a>
+        </div>
         </div>
     </div>
     <div class="note">
