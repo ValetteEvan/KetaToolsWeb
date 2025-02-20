@@ -8,3 +8,5 @@ document.getElementById('btn-register').addEventListener('click', function() {
     document.getElementById('form-login').style.display = 'none';
 });
 
+
+
